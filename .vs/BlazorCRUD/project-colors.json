@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "98e934be-c176-4205-96c0-6bb8ab750552": {
+      "ProjectGuid": "98e934be-c176-4205-96c0-6bb8ab750552",
+      "DisplayName": "BlazorCRUD",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

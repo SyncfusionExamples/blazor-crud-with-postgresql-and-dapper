@@ -1,0 +1,17 @@
+﻿@page "/"
+@using BlazorCRUD.Adapters
+@using BlazorCRUD.Models
+
+<SfGrid TValue="Employee" ID="Grid" Toolbar="@(new List<string>() {"Add", "Delete", "Update", "Cancel"})">
+    <SfDataManager AdaptorInstance="typeof(EmployeeAdaptor)" Adaptor="Adaptors.CustomAdaptor"></SfDataManager>
+    <GridEditSettings AllowEditing="true" AllowDeleting="true" AllowAdding="true" Mode="@EditMode.Normal"></GridEditSettings>
+    <GridColumns>
+        <GridColumn Field="@nameof(Employee.Id)" Width="50" IsPrimaryKey="true"></GridColumn>
+        <GridColumn Field="@nameof(Employee.Name)" Width="100"></GridColumn>
+        <GridColumn Field="@nameof(Employee.Age)"  Width="100"></GridColumn>
+        <GridColumn Field="@nameof(Employee.Address)" Width="100"></GridColumn>
+        <GridColumn Field="@nameof(Employee.MobileNumber)"  Width="100" HeaderText="Mobile Number"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+
