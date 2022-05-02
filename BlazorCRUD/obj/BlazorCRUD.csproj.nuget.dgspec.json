@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YohanMalshika\\source\\repos\\BlazorCRUD\\BlazorCRUD\\BlazorCRUD.csproj": {}
+    "E:\\blazor-crud-with-postgresql-and-dapper\\BlazorCRUD\\BlazorCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YohanMalshika\\source\\repos\\BlazorCRUD\\BlazorCRUD\\BlazorCRUD.csproj": {
+    "E:\\blazor-crud-with-postgresql-and-dapper\\BlazorCRUD\\BlazorCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YohanMalshika\\source\\repos\\BlazorCRUD\\BlazorCRUD\\BlazorCRUD.csproj",
+        "projectUniqueName": "E:\\blazor-crud-with-postgresql-and-dapper\\BlazorCRUD\\BlazorCRUD.csproj",
         "projectName": "BlazorCRUD",
-        "projectPath": "C:\\Users\\YohanMalshika\\source\\repos\\BlazorCRUD\\BlazorCRUD\\BlazorCRUD.csproj",
-        "packagesPath": "C:\\Users\\YohanMalshika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YohanMalshika\\source\\repos\\BlazorCRUD\\BlazorCRUD\\obj\\",
+        "projectPath": "E:\\blazor-crud-with-postgresql-and-dapper\\BlazorCRUD\\BlazorCRUD.csproj",
+        "packagesPath": "C:\\Users\\Yohan Malshika\\.nuget\\packages\\",
+        "outputPath": "E:\\blazor-crud-with-postgresql-and-dapper\\BlazorCRUD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\YohanMalshika\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Yohan Malshika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,24 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.123, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[6.0.4, )"
-            },
-            "Syncfusion.Blazor": {
-              "target": "Package",
-              "version": "[19.4.0.54, )"
-            },
-            "Syncfusion.Blazor.Themes": {
-              "target": "Package",
-              "version": "[19.4.0.54, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -72,15 +49,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
