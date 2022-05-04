@@ -3,7 +3,7 @@ using BlazorCRUD.Services;
 using Syncfusion.Blazor;
 using Syncfusion.Blazor.Data;
 
-namespace BlazorCRUD.Adapters
+namespace BlazorCRUD.Adaptors
 {
     public class EmployeeAdaptor : DataAdaptor
     {

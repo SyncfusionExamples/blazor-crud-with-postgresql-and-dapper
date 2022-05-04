@@ -1,6 +1,5 @@
-using BlazorCRUD.Adapters;
+using BlazorCRUD.Adaptors;
 using BlazorCRUD.Data;
-using BlazorCRUD.Models;
 using BlazorCRUD.Services;
 using Dapper;
 using Syncfusion.Blazor;
