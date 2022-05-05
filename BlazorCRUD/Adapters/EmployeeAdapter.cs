@@ -3,13 +3,13 @@ using BlazorCRUD.Services;
 using Syncfusion.Blazor;
 using Syncfusion.Blazor.Data;
 
-namespace BlazorCRUD.Adaptors
+namespace BlazorCRUD.Adapters
 {
-    public class EmployeeAdaptor : DataAdaptor
+    public class EmployeeAdapter : DataAdaptor
     {
         private readonly IEmployeeService _employeeService;
 
-        public EmployeeAdaptor(IEmployeeService employeeService)
+        public EmployeeAdapter(IEmployeeService employeeService)
         {
             _employeeService = employeeService;
         }

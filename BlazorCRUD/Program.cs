@@ -1,4 +1,4 @@
-using BlazorCRUD.Adaptors;
+using BlazorCRUD.Adapters;
 using BlazorCRUD.Data;
 using BlazorCRUD.Services;
 using Dapper;
@@ -16,7 +16,7 @@ builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation 
 
 builder.Services.AddScoped<IDbService, DbService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddScoped<EmployeeAdaptor>();
+builder.Services.AddScoped<EmployeeAdapter>();
 
 var app = builder.Build();
 
